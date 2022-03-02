@@ -1,4 +1,6 @@
 # sales-champ-WebServices
+Node.js application that exposes its API through REST service.
+
 ## Project documentation on postman
 ```
 https://documenter.getpostman.com/view/8854544/UVksMuAx
