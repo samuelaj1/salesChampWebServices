@@ -75,13 +75,15 @@ const getAddressById = async (req, res) => {
 
             if (address) {
                 return res.status(200).json({
-                    message: "Success",
+                    message: "Successfully retrieved address",
                     status: true,
                     data: address
                 });
             } else {
                 return res.status(400).json({
                     status: false,
+                    message: "Address not found",
+
                 });
             }
 
