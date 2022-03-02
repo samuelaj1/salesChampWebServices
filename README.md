@@ -1,5 +1,8 @@
-# sales-champ-WebServices
-Node.js application that exposes its API through REST service.
+# sales-champ Postgres Db Webservices
+Node.js application that exposes its API through REST service using postgres db and sequelize orm.
+
+## Project on github
+https://github.com/samuelaj1/salesChampWebServices
 
 ## Project documentation on postman
 ```
@@ -12,13 +15,14 @@ cd /salesChampWebServices
 ```
 
 ```
-install node modules - npm i
+install node modules 
+"npm i"
 ```
 
 ```
 Serving the application
-run - node server.js or nodemon
-#NB: url for local server: http://localhost:8081
+"node server.js" or "nodemon"
+#NB: url for local server: http://localhost:3000
 ```
  
 ## Live Project url
