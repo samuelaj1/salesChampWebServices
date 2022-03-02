@@ -122,7 +122,7 @@ const postAddress = async (req, res) => {
             }
 
             const addressExist = await Address.findOne({
-                where: {name: name.toLowerCase()},
+                where: {name: name},
             });
 
             if (addressExist) {

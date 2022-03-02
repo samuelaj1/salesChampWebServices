@@ -1,7 +1,26 @@
 # sales-champ-WebServices
- 
-## Project setup
+## Project documentation on postman
 ```
+
+```
+## Local Project setup
+```
+locate the project directory
+cd /salesChampWebServices
+```
+
+```
+install node modules - npm i
+```
+
+```
+Serving the application
+run - node server.js or nodemon
+```
+ 
+## Live Project url
+```
+Project was hosted on heroku
 Base url: https://sales-champ-db.herokuapp.com
 ```
 ```
