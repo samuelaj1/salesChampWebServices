@@ -34,8 +34,4 @@ Object.keys(db).forEach(modelName => {
 db.sequelize = sequelize;
 db.Sequelize = Sequelize;
 
-db.startuppartner = require("./startuppartner.js")(sequelize, Sequelize);
-db.mentors_profile= require("./mentors_profile.js")(sequelize, Sequelize);
-db.mentors_appointments = require("./mentors_appointments.js")(sequelize, Sequelize);
-db.incubation_baseline_survey = require("./incubation_baseline_survey")(sequelize, Sequelize);
 module.exports = db;

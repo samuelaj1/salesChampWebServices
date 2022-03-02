@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "ghanatechlab",
+    "username": "saleschamp",
     "password": "H3ll0w0rld!123",
-    "database": "gtldb",
-    "host": "gtldb.c5mrqydtauk0.us-east-1.rds.amazonaws.com",
+    "database": "saleschamp",
+    "host": "saleschamp.cq1vcvi7dbhf.us-east-1.rds.amazonaws.com",
     "dialect": "postgres",
     "pool": {
       "max": 5,
@@ -12,6 +12,7 @@
       "idle": 10000
     }
   },
+
   "test": {
     "username": "root",
     "password": null,
@@ -20,10 +21,10 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "ghanatechlab",
+    "username": "saleschamp",
     "password": "H3ll0w0rld!123",
-    "database": "gtldb",
-    "host": "gtldb.c5mrqydtauk0.us-east-1.rds.amazonaws.com",
+    "database": "saleschamp",
+    "host": "saleschamp.cq1vcvi7dbhf.us-east-1.rds.amazonaws.com",
     "dialect": "postgres",
     "pool": {
       "max": 5,
