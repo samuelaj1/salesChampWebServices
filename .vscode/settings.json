@@ -1,4 +1,0 @@
-{
-    "appService.defaultWebAppToDeploy": "/subscriptions/ea4b4ce0-7d1a-4fd3-8984-21008c4d50f7/resourceGroups/appsvc_linux_centralus_basic/providers/Microsoft.Web/sites/incubation-webservice",
-    "appService.deploySubpath": "."
-}
