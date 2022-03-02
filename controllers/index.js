@@ -117,7 +117,6 @@ const postAddress = async (req, res) => {
                 return res.status(400).json({
                     success: false,
                     message: error.details[0].message,
-                    type: "error",
                 });
             }
 
@@ -183,7 +182,7 @@ const deleteAddressById = async (req, res) => {
             if (deletedAddress === 1) {
                 return res.status(200).json({
                     message: "Address has been deleted successfully",
-                    status: true,
+                    status: true
                 });
             } else {
                 return res.status(400).json({

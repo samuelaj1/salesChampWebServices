@@ -16,6 +16,7 @@ install node modules - npm i
 ```
 Serving the application
 run - node server.js or nodemon
+#NB: url for local server: http://localhost:8081
 ```
  
 ## Live Project url
